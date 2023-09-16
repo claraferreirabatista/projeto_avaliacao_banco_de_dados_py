@@ -84,7 +84,7 @@ Passo 1 -->>
 
 1. Abra o BRMODELO e crie um novo projeto.
 
-2. Crie duas entidades: "Cliente" e "Produto". Para cada entidade, defina os atributos mencionados na descrição do projeto, ou seja, para "Cliente", você terá os atributos: "codigo_cliente", "nome_cliente", "sobrenome_cliente", "telefones_cliente", "municipio_cliente", "codigo_tipo_cliente" e "tipo_cliente". Para "Produto", terá os atributos: "codigo_produto", "nome_produto", "descricao_produto", "codigo_tipo_produto", "tipo_produto", "codigo_diretor_responsavel", "nome_diretor_responsavel" e "email_diretor_responsavel".
+2. Crie duas entidades: "Cliente" e "Produto". Para cada entidade, defina os atributos mencionados na descrição do projeto, ou seja, para "Cliente", você terá os atributos: "codigo_cliente", "nome_cliente", "sobrenome_cliente", "telefones_cliente", "municipio_cliente", "codigo_tipo_cliente" e "tipo_cliente". Para "Produto", terá os atributos: codigo_produto, nome_produto, descricao_produto, codigo_tipo_produto, tipo_produto, codigo_diretor_responsavel, nome_diretor_responsavel e email_diretor_responsavel.
 
 3. Defina as chaves primárias para cada entidade. Por exemplo, "codigo_cliente" para "Cliente" e "codigo_produto" para "Produto".
 
