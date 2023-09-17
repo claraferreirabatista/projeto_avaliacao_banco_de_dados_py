@@ -1,14 +1,3 @@
-**Sprint 1: Modelagem Conceitual e Normalização (4 horas)**
-
-1. **1 hora**: Compreender completamente o escopo da atividade.
-2. **2 horas**: Criar o modelo conceitual inicial do banco de dados com as tabelas "cliente" e "produto", identificando atributos chave e multivalorados, bem como a cardinalidade dos relacionamentos.
-3. **1 hora**: Refinar o modelo conceitual, fazendo ajustes conforme necessário.
-
-**Sprint 2: Modelo Lógico e Normalização (4 horas)**
-
-4. **1 hora**: Transformar o modelo conceitual em um modelo lógico que inclua as tabelas e as chaves primárias.
-5. **2 horas**: Normalizar o modelo lógico até a terceira forma normal (3NF).
-6. **1 hora**: Documentar o modelo lógico resultante e suas relações.
 
 **Sprint 3: Consultas SQL (4 horas)**
 
