@@ -1,6 +1,3 @@
-import pymysql
-
-# Função para conectar ao banco de dados
 def conectar_db():
     try:
         conn = pymysql.connect(
