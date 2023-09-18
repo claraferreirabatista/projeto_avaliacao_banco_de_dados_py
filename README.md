@@ -9,6 +9,8 @@ O cenário desta atividade envolve a necessidade de projetar um banco de dados p
 1. **Modelo Conceitual (Não Normalizado)**
    - Apresentação do modelo conceitual inicial fornecido pelo gestor.
    - Destaque para atributos-chave, atributos multivalorados e cardinalidade dos relacionamentos.
+   
+![Modelo Conceitual Não Normalizado](/images/modelo_conceitual.jpg)
 
 2. **Modelo Lógico (Normalizado)**
    - Apresentação do modelo lógico após a normalização.
