@@ -33,6 +33,5 @@ def inserir_produtos(conn):
         conn.commit()
     except pymysql.Error as e:
         raise Exception('Erro ao inserir produtos: ', e)
-    finally:
-        cursor.close()
+
 

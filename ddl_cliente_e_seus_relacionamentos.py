@@ -1,4 +1,4 @@
-def criar_tabelas_relacionadas(conn):
+def criar_tabela_tipo_cliente(conn):
     cursor = conn.cursor()
 
     try:
@@ -9,7 +9,14 @@ def criar_tabelas_relacionadas(conn):
             );
         """)
         cursor.execute(ddl_tipo_cliente)
+        conn.commit()
+    except pymysql.Error as e:
+        raise Exception('Erro ao criar tabela tipo_cliente: ', e)
 
+def criar_tabela_cliente(conn):
+    cursor = conn.cursor()
+
+    try:
         ddl_cliente = ('''
             CREATE TABLE IF NOT EXISTS cliente (
                 codigo_cliente INT AUTO_INCREMENT PRIMARY KEY,
@@ -22,9 +29,7 @@ def criar_tabelas_relacionadas(conn):
             );
         ''')
         cursor.execute(ddl_cliente)
-
         conn.commit()
     except pymysql.Error as e:
-        raise Exception('Erro ao criar tabelas relacionadas: ', e)
-    finally:
-        cursor.close()
+        raise Exception('Erro ao criar tabela cliente: ', e)
+

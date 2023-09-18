@@ -3,7 +3,7 @@ def listar_ids_e_precos_acima_media(conn):
         cursor = conn.cursor()
 
         dql_media_valor = """
-        SELECT codigo_produto, valor
+        SELECT codigo_produto as ID, valor as Preço
         FROM produto
         WHERE valor > (SELECT AVG(valor) FROM produto);
         """
@@ -19,5 +19,3 @@ def listar_ids_e_precos_acima_media(conn):
 
     except pymysql.Error as e:
         raise Exception('Erro ao listar ids e preços acima da média: ', e)
-    finally:
-        cursor.close()

@@ -16,6 +16,5 @@ def criar_tabela_cliente_produto(conn):
         conn.commit()
     except pymysql.Error as e:
         raise Exception('Erro ao criar tabela cliente_produto: ', e)
-    finally:
-        cursor.close()
+
 

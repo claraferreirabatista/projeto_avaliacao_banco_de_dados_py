@@ -13,8 +13,7 @@ def inserir_diretores(conn):
         conn.commit()
     except pymysql.Error as e:
         raise Exception('Erro ao inserir diretores: ', e)
-    finally:
-        cursor.close()
+
 
 def inserir_categorias(conn):
     try:
@@ -47,6 +46,5 @@ def inserir_categorias(conn):
         conn.commit()
     except pymysql.Error as e:
         raise Exception('Erro ao inserir categorias: ', e)
-    finally:
-        cursor.close()
+
 
