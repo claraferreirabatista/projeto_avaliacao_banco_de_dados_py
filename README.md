@@ -1,6 +1,6 @@
-# Projeto Avaliativo do módulo Banco de Dados, do bootcamp Ada Tech
+# Projeto Avaliativo do módulo Banco de Dados
 
-Este repositório contém um código em Python, apresentado em um arquivo Jupyter Notebook chamado `index.ipynb` na pasta questão_1, que aborda a modelagem e normalização de bancos de dados relacionais, juntamente com consultas SQL simples e complexas em um banco de dados MySQL. Este código foi desenvolvido como uma resolução de uma atividade que originalmente propunha o uso do PostgreSQL, mas foi adaptado para o MySQL.
+Este repositório contém um código em Python, apresentado em um arquivo Jupyter Notebook chamado `index.ipynb` na pasta (questão_1), que aborda a modelagem e normalização de bancos de dados relacionais, juntamente com consultas SQL simples e complexas em um banco de dados MySQL. Este código foi desenvolvido como uma resolução de uma atividade que originalmente propunha o uso do PostgreSQL, mas foi adaptado para o MySQL.
 
 ## Atividade 1 - Modelagem e Normalização de Bancos de Dados
 
@@ -9,7 +9,7 @@ O cenário desta atividade envolve a necessidade de projetar um banco de dados p
 1. **Modelo Conceitual (Não Normalizado)**
    - Apresentação do modelo conceitual inicial fornecido pelo gestor.
    - Destaque para atributos-chave, atributos multivalorados e cardinalidade dos relacionamentos.
-   
+
 ![Modelo Conceitual Não Normalizado](/images/modelo_conceitual.jpg)
 
 2. **Modelo Lógico (Normalizado)**
@@ -32,7 +32,7 @@ Além da modelagem e normalização, o código também inclui consultas SQL simp
 
 # Atividade 2: Inserções, Alterações e Remoções de Dados em um Banco de Dados
 
-Este repositório contém um código em Python, apresentado em um arquivo Jupyter Notebook chamado `index.ipynb` na pasta "questão_2", que aborda a realização de operações de inserção, alteração e remoção de dados em um banco de dados MySQL. Esse código faz parte de uma etapa de avaliação para uma posição de cientista de dados na Ada, uma das maiores formadoras do país em áreas relacionadas à tecnologia.
+Este repositório contém um código em Python, apresentado em um arquivo Jupyter Notebook chamado `index.ipynb` na pasta (questão_2), que aborda a realização de operações de inserção, alteração e remoção de dados em um banco de dados MySQL. Esse código faz parte de uma etapa de avaliação para uma posição de cientista de dados na Ada, uma das maiores formadoras do país em áreas relacionadas à tecnologia.
 
 ## Descrição da Atividade
 
