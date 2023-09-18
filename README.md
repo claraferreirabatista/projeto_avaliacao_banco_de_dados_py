@@ -14,7 +14,8 @@ O cenário desta atividade envolve a necessidade de projetar um banco de dados p
    - Apresentação do modelo lógico após a normalização.
    - Destaque para atributos-chave, atributos multivalorados e cardinalidade dos relacionamentos.
 
-![Modelo Conceitual Normalizado](/home/clara/Área de Trabalho/ADA/Banco de Dados (PY) - Pasta Geral/projeto_avaliacao_banco_de_dados_py/images/modelo_conceitual_normalizado.jpg)
+[Modelo Conceitual Normalizado](/images/modelo_conceitual_normalizado.jpg)
+[Modelo Lógico Normalizado](/images/modelo_logico_normalizado.jpg)
 
 ## Consultas SQL
 
